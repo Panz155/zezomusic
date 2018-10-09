@@ -260,7 +260,7 @@ client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`
 	
-        ***__أوامر الموسيفة__***
+        ***__أوامر الموسيقة__***
 **
 1play - لتشغيل أغنية برآبط أو بأسم
 1come - حتى تثبت البوت بروم
