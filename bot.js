@@ -404,7 +404,7 @@ message.channel.send({embed:embed});
 
 
  client.on('message', function(message) {
-	const myID = "424639806522523649";
+	const myID = "379649602087026688";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(adminprefix + "setname")) {
 		        if(message.author.id !== myID) return;
@@ -459,7 +459,7 @@ message.channel.send({embed:embed});
 
   client.on('message',async message => {
     if(message.content.startsWith(adminprefix + "restart")) {
-        if(message.author.id !== "424639806522523649") return message.reply('You aren\'t the bot owner.');
+        if(message.author.id !== "379649602087026688") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
